@@ -1,0 +1,134 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+.navBer li{
+   display: inline;
+   margin: 20px;
+   font-size: 15px;
+}
+.navBer{
+    float: right;
+    padding: 20px 30px;
+    margin: 0;
+    color:rgb(241, 239, 239);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.navContainer{
+    height: 80px;
+    background-color:orangered;
+    margin: 0;
+    box-shadow: 2px 2px rgb(189, 185, 185);
+}
+
+.box{
+    margin: 20px;
+    padding: 30px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    color: gray;
+    justify-content: space-between;
+    
+    /* border: 1px solid red; */
+    
+}
+.boxOne{
+
+    padding: 30px;
+    font-size: 25px;
+    width: 90vw;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    color: gray;
+    justify-items: center;
+    justify-content: space-between;
+    
+}
+.boxImg{
+    width: 40vw;
+    
+}
+.boxImg img{
+    height: 80vh;
+    /* margin-left:50%; */
+}
+.nextBox{
+    width: 45vw;
+}
+
+.box2{
+    color: black;
+    margin-left: 0;
+    
+}
+h2{
+    color: grey;
+}
+.box1 img{
+    height: 70vh;
+}
+.link{
+    text-decoration: none;
+    padding: 10px 50px;
+    border-radius:40px ;
+    background-image: linear-gradient(darkorange,orange);
+    color: white;
+}
+.left{
+    /* border: 1px solid red; */
+    width: 40%;
+}
+.one{
+    margin: 20px;
+    padding: 30px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+.box4{
+    text-align: center;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    font-size: 20px;
+}
+.parent{
+    display: flex;
+    justify-content: space-around;
+    
+}
+h2{
+    color: black;
+}
+.child{
+    box-shadow: 10px 5px 5px rgb(170, 168, 168);
+    margin:5%;
+    padding: 20px 10px;
+    border-radius: 25px 25px 25px 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+img{
+    width: 80%;
+}
+
+.footer-container{
+    display: flex;
+    margin: 3px 20px;
+    padding: 30px ;
+    justify-content: space-around;
+    background-color: rgb(41, 37, 37);
+    color: rgb(240, 228, 228);
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footerIteam li{
+list-style-type: none;
+padding: 4px;
+}
+.f-icons{
+    color: blue;
+}
+
